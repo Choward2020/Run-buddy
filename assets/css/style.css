@@ -38,7 +38,7 @@
   }
   
   header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 22px;
   }
@@ -77,6 +77,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    align-items: flex-start;
   }
   /* Hero Style End */
   
@@ -121,6 +122,10 @@
     font-size: 16px;
   }
   
+  .hero-cta{
+    line-height: 1.2;
+  }
+
   .intro {
     text-align: center;
   }
@@ -163,7 +168,7 @@
   }
   
   .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
@@ -268,4 +273,6 @@
   }
   
   /* REACH OUT STYLES END */
-  
+   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+}
